@@ -1,0 +1,66 @@
+Genera un bloque de comentarios al inicio del script que incluya:
+- Nombre del archivo y versión
+- Descripción breve del propósito del script
+- Lista de funcionalidades clave (en viñetas)
+- Instrucciones de uso (línea de comandos)
+- Ejemplo de ejecución
+- Opcional: sistema operativo o entorno si es relevante
+
+Formato esperado:
+- Para Python: triple comillas """ tras el shebang
+- Para PowerShell: comentarios con #
+- Para Bash: comentarios con #
+- El bloque debe estar al principio del archivo, inmediatamente después del shebang si existe
+
+Ejemplo de estructura:
+
+#!/usr/bin/env python3
+"""
+NOMBRE_DEL_SCRIPT.py Vx.y
+
+Breve descripción del propósito del script.
+
+Funcionalidad:
+- Punto clave 1
+- Punto clave 2
+- Punto clave 3
+
+Uso:
+    python NOMBRE_DEL_SCRIPT.py [opciones]
+
+Ejemplo:
+    python NOMBRE_DEL_SCRIPT.py /ruta/a/carpeta
+"""
+
+# NOMBRE_DEL_SCRIPT.ps1 Vx.y
+#
+# Descripción:
+# Breve resumen del propósito del script.
+#
+# Funcionalidad:
+# - Punto clave 1
+# - Punto clave 2
+# - Punto clave 3
+#
+# Uso:
+#     .\NOMBRE_DEL_SCRIPT.ps1 -Ruta "C:\MiCarpeta"
+#
+# Ejemplo:
+#     .\NOMBRE_DEL_SCRIPT.ps1 -Ruta "C:\MiCarpeta"
+
+#!/bin/bash
+# NOMBRE_DEL_SCRIPT.sh Vx.y
+#
+# Descripción:
+# Breve resumen del propósito del script.
+#
+# Funcionalidad:
+# - Punto clave 1
+# - Punto clave 2
+# - Punto clave 3
+#
+# Uso:
+#     ./NOMBRE_DEL_SCRIPT.sh [opciones]
+#
+# Ejemplo:
+#     ./NOMBRE_DEL_SCRIPT.sh /ruta/a/carpeta
